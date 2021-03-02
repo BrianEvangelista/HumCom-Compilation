@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <table style=border-style:inset>
+		<tr>
+		<th><a href="Exercise1.html">Exercise1</th>
+		<th><a href="Exercise2.html">Exercise2</th>
+		<th><a href="Exercise3.html">Exercise3</th>
+		<th><a href="Exercise4.html">Exercise4</th>
+		<th><a href="Exercise5.html">Exercise5</th>
+		<th><a href="Exercise6.html">Exercise6</th>
+		<th><a href="Exercise7.html">Exercise7</th>
+		<th><a href="Exercise8.html">Exercise8</th>
+		</tr>
+	</table>
+    <body>
+        <title>Registration Form Brian Evangelista</title>
+    <img style="width:240px; height:460"; src="pictures\logoub.png"; >
+         <h3><b><center>Student Profile</center></b></h3>
+         <hr style="width:1500px; height: 30px" ; border-width="thick">
+
+    <form>
+        <label for="snumber">Student Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="number" id="snumber" name="snumber" pattern="[1-9]{12}" minlenth="5" maxlength="12" title="Input 5-12 numbers only "><br><br>
+        <label for="sname">Student Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" id="sname" name="sname" pattern="[A-Za-z]" title="Input First name">                                         <input type="text" id="sname" name="sname" pattern="[A-Za-z]" title="Input middle name">                                                 <input type="text" id="sname" name="sname" pattern="[A-Za-z]" title="Input Surname"><br><br>
+           <br></br>
+        <label for="courprog">Course/Program&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input list="Courses" name="Courses" size="50">
+                <datalist id="Courses">
+                <option value="BSIT (ICT) - Bachelor of Science In Information Technology"></option>
+                <option value="BSCS - Bachelor of Science In Computer Science"></option>
+                <option value="BSCpE - Bachelor of Science In Computer Engineering"></option>
+                <option value="BSIS - Bachelor of Science In Information System"></option>
+                </datalist>
+           <br><br>
+        <label for="mnumber">Mobile Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="number" id="mnumber" name="mnumber" pattern="[1-9]" title="Input Phone Number Only ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="eMail">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="email" id="eMail" name="eMail" title="Type your Email">
+            <br></br>
+        <label for="rArea" id="rArea" name="rArea" title="Type your Adress">Residential Area&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <textarea name="rArea" rows="3" cols="21" ></textarea>
+        <label for="paddress" id="paddress" name="paddress" title="Type your Address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Permanent) Address&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <textarea name="paddress" rows="3" cols="22" ></textarea>
+            <br><br>
+        <label for="rregion" >(Permanent) Region&nbsp;:</label>
+        <input list="Region" >
+                <datalist id="Region">
+                <option value="Region 1"></option>
+                <option value="Region 2"></option>
+                <option value="Region 3"></option>
+                <option value="Region 4-A"></option>
+                <option value="Region 4-B"></option>
+                <option value="Region 5"></option>
+                <option value="Region CAR"></option>
+                <option value="Region NCR"></option>
+                <option value="Region 6"></option>
+                <option value="Region 7"></option>
+                <option value="Region 8"></option>
+                <option value="Region 9"></option>
+                <option value="Region 10"></option>
+                <option value="Region 11"></option>
+                <option value="Region 12"></option>
+                <option value="Region 13"></option>
+                <option value="BARMM"></option>
+                </datalist>
+                <br></br>
+        <label for="pprovince">(Permanent)Province:</label>
+        <input type="text" id="pprovince" name="pprovince">
+                <br></br>
+        <label for="pprovince" >(Permanent)<br></label>
+        Municipality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<input type="text" name="pprovince" id="pprovince">
+                <br></br>
+        <label for="Pteln">Permanen Tel. Num.&nbsp;:</label>
+        <input type="number" id="Pteln" name="Pteln">
+                 <br></br>
+        <label for="dob">Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label> 
+        <input type="text" id="dob" name="dob" size="8">&nbsp;<input type="text" id="dob" name="dob" size="3">&nbsp;<input type="text" id="dob" name="dob" size="6">    <label for="pob">&nbsp;&nbsp;&nbsp;&nbsp;Place of Birth&nbsp;&nbsp;:</label>
+        <input type="text" id="pob" name="pob">
+                <br></br>
+        <label name="gender">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+              
+        <label for="rreeligion" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Religion&nbsp;:</label>
+        <input list="Religion" >
+                <datalist id="Religion">
+                <option value="Roman Catholic"></option>
+                <option value="Islam"></option>
+                <option value="Born Again"></option>
+                <option value="Evangelicals"></option>
+                <option value="Iglesia Ni Cristo"></option>
+                <option value="Others"></option>
+                </datalist>
+                <br></br>
+        <label name="Nation">Nationality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" id="Nation" name="Nation">   <label name="cstatus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Civil Status&nbsp;:<label>
+            <input type="list">
+                <datalist id="list">
+                    <option value="Single"></option>
+                    <option value="Married"></option>
+                </datalist>
+        </label>
+        <hr style="width:1500 height:20"></hr>
+    </form>
+    </body>
+</html>
